@@ -1,0 +1,20 @@
+require 'logger'
+require 'singleton'
+require 'aws-sdk'
+require 'diffy'
+require 'parallel'
+require 'pp'
+require 'term/ansicolor'
+
+require 'acmaker/logger'
+require 'acmaker/utils'
+require 'acmaker/ext/string_ext'
+
+require 'acmaker/version'
+
+require 'acmaker/client'
+require 'acmaker/driver'
+require 'acmaker/dsl'
+require 'acmaker/dsl/context'
+require 'acmaker/dsl/converter'
+require 'acmaker/exporter'
