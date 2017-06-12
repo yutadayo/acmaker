@@ -162,6 +162,10 @@ $ cat Certificatefile
 $ acmaker -a
 ```
 
+## Test
+
+set your AWS arn and domain_name for [spec/aws_config.yml.sample](https://github.com/yutadayo/acmaker/blob/master/spec/aws_config.yml.sample) and rename to spec/aws_config.yml.
+
 ## Similar tools
 
 - [Codenize.tools](https://codenize.tools/)
