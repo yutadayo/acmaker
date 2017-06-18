@@ -13,7 +13,8 @@ module Acmaker
 
       unless @options[:dry_run]
         resp = @client.request_certificate(expected_certificate)
-        log(:info, "Certificate arn `#{resp.certificate_arn}` has been created", color: :cyan)
+        arn = resp.certificate_arn.match(/(certificate\/.*)/)[1]
+        log(:info, "Certificate arn `#{arn}` has been created", color: :cyan)
       end
     end
 
