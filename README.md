@@ -1,5 +1,7 @@
 # Acmaker
 
+[![Build Status](https://travis-ci.org/yutadayo/acmaker.svg?branch=master)](https://travis-ci.org/yutadayo/acmaker)
+
 Acmaker is a tool to manage [AWS Certificate Manager](https://aws.amazon.com/jp/certificate-manager/)
 It defines the state of Certificate Manager using DSL, and updates Certificate Manager according to DSL.
 
